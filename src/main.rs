@@ -119,6 +119,7 @@ pub async fn validators_handler(Path(address): Path<String>, State(app_state): S
                 },
                 "update_time": null
             },
+            // there are several more fields to go here
         }
     });
     Json(json_response)
